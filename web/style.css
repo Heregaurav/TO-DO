@@ -1,0 +1,73 @@
+body{
+    background-color: rgb(221, 221, 101);
+}
+
+h1{
+  font-family: "BBH Bartle", sans-serif;
+  color: rgb(77, 199, 255);
+}
+
+#main{
+    font-family: "BBH Bartle", sans-serif;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(221, 221, 101);
+}
+
+input{
+    margin: 30px;
+    padding:10px;
+    padding-left:120px;
+    padding-right: 50px;
+    background-color: rgb(243, 191, 124);
+    border: 2px coral; 
+    border-radius: 3px;
+    font-weight: 400;
+}
+
+input:hover{
+    padding:18px;
+    padding-left:115px;
+    padding-right:70px;
+    border-radius:4px;
+    border:2px solid rgb(212, 165, 110);
+}
+
+
+
+button{
+    padding:7px;
+    border:1px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgb(139, 140, 146);
+    color: aliceblue;
+    font-weight: 900;
+    border-radius: 3px;
+
+
+}
+button:hover{
+    padding:10px;
+    padding-left:35px;
+    padding-right:35px;
+    border-radius:4px;  background-color: rgb(139, 140, 146);
+    color: aliceblue;
+    font-weight: 900;
+    border:2px solid rgb(168, 162, 162);
+    
+}
+
+#box{
+   
+    background-color: rgb(198, 247, 153);
+    padding-right:30px;
+
+}
+* {
+    box-sizing: border-box;
+}
+
+
+
